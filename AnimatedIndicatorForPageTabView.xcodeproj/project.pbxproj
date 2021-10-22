@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		162B140C272325B7006EC255 /* AnimatedIndicatorForPageTabViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162B140B272325B7006EC255 /* AnimatedIndicatorForPageTabViewApp.swift */; };
+		162B140E272325B7006EC255 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162B140D272325B7006EC255 /* ContentView.swift */; };
+		162B1410272325B9006EC255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 162B140F272325B9006EC255 /* Assets.xcassets */; };
+		162B1413272325B9006EC255 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 162B1412272325B9006EC255 /* Preview Assets.xcassets */; };
+		162B141E272325BA006EC255 /* AnimatedIndicatorForPageTabViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162B141D272325BA006EC255 /* AnimatedIndicatorForPageTabViewTests.swift */; };
+		162B1429272325BA006EC255 /* AnimatedIndicatorForPageTabViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162B1428272325BA006EC255 /* AnimatedIndicatorForPageTabViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		162B141A272325BA006EC255 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 162B1400272325B7006EC255 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 162B1407272325B7006EC255;
+			remoteInfo = AnimatedIndicatorForPageTabView;
+		};
+		162B1425272325BA006EC255 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 162B1400272325B7006EC255 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 162B1407272325B7006EC255;
+			remoteInfo = AnimatedIndicatorForPageTabView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		162B1408272325B7006EC255 /* AnimatedIndicatorForPageTabView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedIndicatorForPageTabView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		162B140B272325B7006EC255 /* AnimatedIndicatorForPageTabViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedIndicatorForPageTabViewApp.swift; sourceTree = "<group>"; };
+		162B140D272325B7006EC255 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		162B140F272325B9006EC255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		162B1412272325B9006EC255 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		162B1414272325B9006EC255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		162B1419272325BA006EC255 /* AnimatedIndicatorForPageTabViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedIndicatorForPageTabViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		162B141D272325BA006EC255 /* AnimatedIndicatorForPageTabViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedIndicatorForPageTabViewTests.swift; sourceTree = "<group>"; };
+		162B141F272325BA006EC255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		162B1424272325BA006EC255 /* AnimatedIndicatorForPageTabViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedIndicatorForPageTabViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		162B1428272325BA006EC255 /* AnimatedIndicatorForPageTabViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedIndicatorForPageTabViewUITests.swift; sourceTree = "<group>"; };
+		162B142A272325BA006EC255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		162B1405272325B7006EC255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162B1416272325BA006EC255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162B1421272325BA006EC255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		162B13FF272325B7006EC255 = {
+			isa = PBXGroup;
+			children = (
+				162B140A272325B7006EC255 /* AnimatedIndicatorForPageTabView */,
+				162B141C272325BA006EC255 /* AnimatedIndicatorForPageTabViewTests */,
+				162B1427272325BA006EC255 /* AnimatedIndicatorForPageTabViewUITests */,
+				162B1409272325B7006EC255 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		162B1409272325B7006EC255 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				162B1408272325B7006EC255 /* AnimatedIndicatorForPageTabView.app */,
+				162B1419272325BA006EC255 /* AnimatedIndicatorForPageTabViewTests.xctest */,
+				162B1424272325BA006EC255 /* AnimatedIndicatorForPageTabViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		162B140A272325B7006EC255 /* AnimatedIndicatorForPageTabView */ = {
+			isa = PBXGroup;
+			children = (
+				162B140B272325B7006EC255 /* AnimatedIndicatorForPageTabViewApp.swift */,
+				162B140D272325B7006EC255 /* ContentView.swift */,
+				162B140F272325B9006EC255 /* Assets.xcassets */,
+				162B1414272325B9006EC255 /* Info.plist */,
+				162B1411272325B9006EC255 /* Preview Content */,
+			);
+			path = AnimatedIndicatorForPageTabView;
+			sourceTree = "<group>";
+		};
+		162B1411272325B9006EC255 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				162B1412272325B9006EC255 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		162B141C272325BA006EC255 /* AnimatedIndicatorForPageTabViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				162B141D272325BA006EC255 /* AnimatedIndicatorForPageTabViewTests.swift */,
+				162B141F272325BA006EC255 /* Info.plist */,
+			);
+			path = AnimatedIndicatorForPageTabViewTests;
+			sourceTree = "<group>";
+		};
+		162B1427272325BA006EC255 /* AnimatedIndicatorForPageTabViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				162B1428272325BA006EC255 /* AnimatedIndicatorForPageTabViewUITests.swift */,
+				162B142A272325BA006EC255 /* Info.plist */,
+			);
+			path = AnimatedIndicatorForPageTabViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		162B1407272325B7006EC255 /* AnimatedIndicatorForPageTabView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 162B142D272325BA006EC255 /* Build configuration list for PBXNativeTarget "AnimatedIndicatorForPageTabView" */;
+			buildPhases = (
+				162B1404272325B7006EC255 /* Sources */,
+				162B1405272325B7006EC255 /* Frameworks */,
+				162B1406272325B7006EC255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimatedIndicatorForPageTabView;
+			productName = AnimatedIndicatorForPageTabView;
+			productReference = 162B1408272325B7006EC255 /* AnimatedIndicatorForPageTabView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		162B1418272325BA006EC255 /* AnimatedIndicatorForPageTabViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 162B1430272325BA006EC255 /* Build configuration list for PBXNativeTarget "AnimatedIndicatorForPageTabViewTests" */;
+			buildPhases = (
+				162B1415272325BA006EC255 /* Sources */,
+				162B1416272325BA006EC255 /* Frameworks */,
+				162B1417272325BA006EC255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				162B141B272325BA006EC255 /* PBXTargetDependency */,
+			);
+			name = AnimatedIndicatorForPageTabViewTests;
+			productName = AnimatedIndicatorForPageTabViewTests;
+			productReference = 162B1419272325BA006EC255 /* AnimatedIndicatorForPageTabViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		162B1423272325BA006EC255 /* AnimatedIndicatorForPageTabViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 162B1433272325BA006EC255 /* Build configuration list for PBXNativeTarget "AnimatedIndicatorForPageTabViewUITests" */;
+			buildPhases = (
+				162B1420272325BA006EC255 /* Sources */,
+				162B1421272325BA006EC255 /* Frameworks */,
+				162B1422272325BA006EC255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				162B1426272325BA006EC255 /* PBXTargetDependency */,
+			);
+			name = AnimatedIndicatorForPageTabViewUITests;
+			productName = AnimatedIndicatorForPageTabViewUITests;
+			productReference = 162B1424272325BA006EC255 /* AnimatedIndicatorForPageTabViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		162B1400272325B7006EC255 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					162B1407272325B7006EC255 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					162B1418272325BA006EC255 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 162B1407272325B7006EC255;
+					};
+					162B1423272325BA006EC255 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 162B1407272325B7006EC255;
+					};
+				};
+			};
+			buildConfigurationList = 162B1403272325B7006EC255 /* Build configuration list for PBXProject "AnimatedIndicatorForPageTabView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 162B13FF272325B7006EC255;
+			productRefGroup = 162B1409272325B7006EC255 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				162B1407272325B7006EC255 /* AnimatedIndicatorForPageTabView */,
+				162B1418272325BA006EC255 /* AnimatedIndicatorForPageTabViewTests */,
+				162B1423272325BA006EC255 /* AnimatedIndicatorForPageTabViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		162B1406272325B7006EC255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162B1413272325B9006EC255 /* Preview Assets.xcassets in Resources */,
+				162B1410272325B9006EC255 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162B1417272325BA006EC255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162B1422272325BA006EC255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		162B1404272325B7006EC255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162B140E272325B7006EC255 /* ContentView.swift in Sources */,
+				162B140C272325B7006EC255 /* AnimatedIndicatorForPageTabViewApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162B1415272325BA006EC255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162B141E272325BA006EC255 /* AnimatedIndicatorForPageTabViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162B1420272325BA006EC255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162B1429272325BA006EC255 /* AnimatedIndicatorForPageTabViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		162B141B272325BA006EC255 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 162B1407272325B7006EC255 /* AnimatedIndicatorForPageTabView */;
+			targetProxy = 162B141A272325BA006EC255 /* PBXContainerItemProxy */;
+		};
+		162B1426272325BA006EC255 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 162B1407272325B7006EC255 /* AnimatedIndicatorForPageTabView */;
+			targetProxy = 162B1425272325BA006EC255 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		162B142B272325BA006EC255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		162B142C272325BA006EC255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		162B142E272325BA006EC255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AnimatedIndicatorForPageTabView/Preview Content\"";
+				DEVELOPMENT_TEAM = 7NN4GA72T6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AnimatedIndicatorForPageTabView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.selenyanar.AnimatedIndicatorForPageTabView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		162B142F272325BA006EC255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AnimatedIndicatorForPageTabView/Preview Content\"";
+				DEVELOPMENT_TEAM = 7NN4GA72T6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AnimatedIndicatorForPageTabView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.selenyanar.AnimatedIndicatorForPageTabView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		162B1431272325BA006EC255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7NN4GA72T6;
+				INFOPLIST_FILE = AnimatedIndicatorForPageTabViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.selenyanar.AnimatedIndicatorForPageTabViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimatedIndicatorForPageTabView.app/AnimatedIndicatorForPageTabView";
+			};
+			name = Debug;
+		};
+		162B1432272325BA006EC255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7NN4GA72T6;
+				INFOPLIST_FILE = AnimatedIndicatorForPageTabViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.selenyanar.AnimatedIndicatorForPageTabViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimatedIndicatorForPageTabView.app/AnimatedIndicatorForPageTabView";
+			};
+			name = Release;
+		};
+		162B1434272325BA006EC255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7NN4GA72T6;
+				INFOPLIST_FILE = AnimatedIndicatorForPageTabViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.selenyanar.AnimatedIndicatorForPageTabViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnimatedIndicatorForPageTabView;
+			};
+			name = Debug;
+		};
+		162B1435272325BA006EC255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7NN4GA72T6;
+				INFOPLIST_FILE = AnimatedIndicatorForPageTabViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.selenyanar.AnimatedIndicatorForPageTabViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnimatedIndicatorForPageTabView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		162B1403272325B7006EC255 /* Build configuration list for PBXProject "AnimatedIndicatorForPageTabView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162B142B272325BA006EC255 /* Debug */,
+				162B142C272325BA006EC255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		162B142D272325BA006EC255 /* Build configuration list for PBXNativeTarget "AnimatedIndicatorForPageTabView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162B142E272325BA006EC255 /* Debug */,
+				162B142F272325BA006EC255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		162B1430272325BA006EC255 /* Build configuration list for PBXNativeTarget "AnimatedIndicatorForPageTabViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162B1431272325BA006EC255 /* Debug */,
+				162B1432272325BA006EC255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		162B1433272325BA006EC255 /* Build configuration list for PBXNativeTarget "AnimatedIndicatorForPageTabViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162B1434272325BA006EC255 /* Debug */,
+				162B1435272325BA006EC255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 162B1400272325B7006EC255 /* Project object */;
+}
